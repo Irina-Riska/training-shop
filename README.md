@@ -1,3 +1,19 @@
+<ul>
+<legend><h1>resources</h1></legend>
+<li><a href="https://www.figma.com/file/mSFXZlknNasPpF2Y3sBZxN/clevertec-SHOP-(Copy)?node-id=1%3A12">figma</a></li>
+<li><a href="https://trello.com/b/byVefbdp/clevertec">trello</a></li>
+<li><a href="https://github.com/Irina-Riska/training-shop">github</a></li>
+</ul>
+
+<ul>
+<legend><h2>contributors</h2></legend>
+<li>Irina Mychko</li>
+</ul>
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
