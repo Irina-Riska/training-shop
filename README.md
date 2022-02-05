@@ -1,13 +1,14 @@
 <ul>
 <legend><h1>resources</h1></legend>
 <li><a href="https://www.figma.com/file/mSFXZlknNasPpF2Y3sBZxN/clevertec-SHOP-(Copy)?node-id=1%3A12">figma</a></li>
+<li><a href="https://www.figma.com/file/H5VuNh1wZ7bC2Go07afOr9/Sketch-Clevertec-shop?node-id=0%3A1">sketch from figma</a></li>
 <li><a href="https://trello.com/b/byVefbdp/clevertec">trello</a></li>
 <li><a href="https://github.com/Irina-Riska/training-shop">github</a></li>
 </ul>
 
 <ul>
 <legend><h2>contributors</h2></legend>
-<li>Irina Mychko</li>
+<li><h2 style="color:red">Irina Mychko</h2></li>
 </ul>
 
 
