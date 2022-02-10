@@ -10,6 +10,7 @@ import MContactBlack from './components/molecule/MContactBlack/MContactBlack';
 
 // organism 
 import OTopBar from './components/organism/OTopBar/OTopBar'
+import ONavigationBar from './components/organism/ONavigationBar/ONavigationBar';
 
 
 
@@ -22,7 +23,7 @@ function App() {
       <br/>
 
     <OTopBar />
-
+    <ONavigationBar/>
 
     </div>
   );
