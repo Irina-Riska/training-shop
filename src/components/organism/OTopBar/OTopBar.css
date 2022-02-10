@@ -1,4 +1,16 @@
 .OTopBar{
-background-color: black;
-font: white;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.infoSocial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }

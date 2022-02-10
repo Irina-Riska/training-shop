@@ -14,6 +14,7 @@ const AIcon =({
        styling,
        width:width,
        height:height,
+    
           }
 
 

@@ -8,7 +8,7 @@ const AText = ({
     color
 }) => {
     const style={
-        color:color||'green',
+        color:color,
         fontSize:sizeFont,
     }
 
