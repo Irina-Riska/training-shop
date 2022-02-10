@@ -36,6 +36,7 @@ const OTopBar = () => {
                     propSrc={el.icon} />)
             })}
 
+
             <div className='infoSocial'>
                 {infoSocial.map(el=><AIcon  propSrc={el} />)}
             </div>
