@@ -25,7 +25,7 @@ const OTopBar = () => {
         Facebook, Twitter, Insta, Pinterest
     ]
 
-
+ 
 
     return (
         <div className='OTopBar'>
@@ -38,7 +38,7 @@ const OTopBar = () => {
 
 
             <div className='infoSocial'>
-                {infoSocial.map(el=><AIcon  propSrc={el} />)}
+                {infoSocial.map((el,id)=><AIcon key={id} propSrc={el} />)}
             </div>
 
         </div>
