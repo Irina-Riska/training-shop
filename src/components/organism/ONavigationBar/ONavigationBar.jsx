@@ -41,7 +41,7 @@ const ONavigationBar = () => {
                 <li><a  href='#'>Contact</a></li>
             </ul>
             <div className='NavIcon'>
-                {NavIcon.map(el=><AIcon  propSrc={el} />)}
+                {NavIcon.map((el,id)=><AIcon key={id} propSrc={el} />)}
             </div>
         </div>
     )

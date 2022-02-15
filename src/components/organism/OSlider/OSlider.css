@@ -7,16 +7,16 @@
     align-items: center;
     position:relative;
 
-    background-image: url(../../../assets/women/Rectangle1.jpg);
+    background-image: url(../../../assets/Women/Rectangle1.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     overflow: hidden;
 }
 
 
-.main-slider{
+/* .main-slider{
 
-}
+} */
 
 .main-banner{
     width: 289px;

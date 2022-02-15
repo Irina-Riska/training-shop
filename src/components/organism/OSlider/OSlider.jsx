@@ -1,9 +1,9 @@
-import react from 'react';
+import React from 'react';
 import AImage from '../../atoms/AImage/AImage';
 import AText from '../../atoms/AText/AText';
 
 // atom
-import image from '../../../assets/women/Rectangle1.jpg';
+// import image from '../../../assets/women/Rectangle1.jpg';
 import './OSlider.css'
 
 
