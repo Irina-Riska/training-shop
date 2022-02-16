@@ -1,18 +1,31 @@
-.OTopBar{
+.wrapper-topBar{
+    /* position: absolute; */
+    width: 100%;
     height: 24px;
+    left: 0px;
+    top: 0px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    background-color: black; 
+    
+}
+
+.oTopBar{
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
     color: white;
     font-size: 11px;
     padding:0 85px ;
 }
 
 .infoSocial{
+    width: 86px;
+    height: 14px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
+    padding:0 85px ;
 }

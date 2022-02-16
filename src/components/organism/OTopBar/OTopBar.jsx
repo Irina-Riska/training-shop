@@ -28,14 +28,15 @@ const OTopBar = () => {
  
 
     return (
-        <div className='OTopBar'>
+        <div className='wrapper-topBar'>
+            <div className='oTopBar'>
             {infoContact.map((el, id) => {
                 return (<MContactBlack
                     key={id}
                     propText={el.text}
                     propSrc={el.icon} />)
             })}
-
+            </div>
 
             <div className='infoSocial'>
                 {infoSocial.map((el,id)=><AIcon key={id} propSrc={el} />)}

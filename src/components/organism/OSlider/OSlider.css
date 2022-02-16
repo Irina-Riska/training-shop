@@ -1,12 +1,13 @@
-.wrapper-main{
+.wrapper-slider{
     height: 490px;
     width: 540px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position:relative;
-
+    position:absolute;
+    left: 85px;
+    top: 122px;
     background-image: url(../../../assets/Women/Rectangle1.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;

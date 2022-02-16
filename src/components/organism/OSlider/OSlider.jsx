@@ -12,7 +12,7 @@ const OSlider =()=>{
 
    
     return(
-        <div className='wrapper-main'>
+        <div className='wrapper-slider'>
 
             <div className='main-slider'>
             {/* <AImage propSrc={image}/> */}
