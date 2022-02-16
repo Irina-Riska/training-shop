@@ -7,23 +7,21 @@ import AIcon from './components/atoms/AIcon/AIcon';
 
 
 // molecule 
-import MContactBlack from './components/molecule/MContactBlack/MContactBlack';
 import MInfoText from './components/molecule/MInfoText/MInfoText';
 import MCardProduct from './components/molecule/MCardProduct/MCardProduct'
 
+
 // organism 
-import OTopBar from './components/organism/OTopBar/OTopBar';
-import ONavigationBar from './components/organism/ONavigationBar/ONavigationBar';
-import OSlider from './components/organism/OSlider/OSlider';
 import OWomen from './components/organism/OWomen/OWomen';
 import OAddInfo from './components/organism/OAddInfo/OAddInfo';
 import OCardList from './components/organism/OCardList/OCardList';
-import OMainBlockImg from './components/organism/OMainBlockImg/OMainBlockImg';
 import OClassLinks from './components/organism/OClassLinks/OClassLinks'
+
 
 // template
 import THeader from './components/template/THeader/THeader';
 import TAbout from './components/template/TAbout/TAbout'
+import TFooter from './components/template/TFooter/TFooter';
 
 
 
@@ -34,14 +32,14 @@ function App() {
   return (
     <div className="App">
 
-      <OTopBar />
-      <ONavigationBar />
+      <THeader />
       <TAbout />
 
       <OClassLinks />
       <OWomen />
       <OCardList />
-      <OAddInfo />
+      
+      <TFooter />
 
 
 

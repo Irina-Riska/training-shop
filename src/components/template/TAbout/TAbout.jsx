@@ -3,6 +3,7 @@ import React from "react";
 // organism
 import OSlider from '../../organism/OSlider/OSlider';
 import OMainBlockImg from "../../organism/OMainBlockImg/OMainBlockImg";
+import OAdvantBlock from "../../organism/OAdvantBlock/OAdvantBlock";
 
 import './TAbout.css';
 
@@ -12,6 +13,7 @@ const TAbout = () => {
         <div className="wrapper-mainPage">
             <OSlider />
             <OMainBlockImg />
+            <OAdvantBlock />
         </div>
     )
 }
