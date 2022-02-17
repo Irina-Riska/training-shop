@@ -1,7 +1,17 @@
 .wrapper-mainPage{
-    height: 490px;
+    height: 60vh;
+    min-height: 490px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 85px;
+    overflow: hidden;
+}
+.block{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }

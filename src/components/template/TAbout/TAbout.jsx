@@ -11,8 +11,10 @@ const TAbout = () => {
 
     return (
         <div className="wrapper-mainPage">
+            <div className="block">
             <OSlider />
             <OMainBlockImg />
+            </div>
             <OAdvantBlock />
         </div>
     )

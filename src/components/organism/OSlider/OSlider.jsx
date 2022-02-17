@@ -1,6 +1,7 @@
 import React from 'react';
 import AImage from '../../atoms/AImage/AImage';
 import AText from '../../atoms/AText/AText';
+import MImageBanner from '../../molecule/MImageBanner/MImageBanner';
 
 // atom
 // import image from '../../../assets/women/Rectangle1.jpg';
@@ -14,9 +15,9 @@ const OSlider =()=>{
     return(
         <div className='wrapper-slider'>
 
-            <div className='main-slider'>
+           {/* <div className='main-slider'>
             {/* <AImage propSrc={image}/> */}
-            </div>
+            {/* </div> */} 
 
             <div className='main-banner'>
                 <AText propText={'Banner'}/>

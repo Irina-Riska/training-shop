@@ -24,8 +24,8 @@ const ONavigationBar = () => {
         { text: 'Contact' }
     ]
 
-    const NavIcon=[
-        Search,Global,User,ShoppingBag
+    const NavIcon = [
+        Search, Global, User, ShoppingBag
     ]
 
     return (
@@ -33,15 +33,15 @@ const ONavigationBar = () => {
             <AIcon propSrc={logo} />
             <ul className='NavLinks'>
                 <li><a href='#'>About Us</a></li>
-                <li><a  href='#'>Women</a></li>
-                <li><a  href='#'>Men</a></li>
-                <li><a  href='#'>Beauty</a></li>
-                <li><a  href='#'>Accessories</a></li>
-                <li><a  href='#'>Blog</a></li>
-                <li><a  href='#'>Contact</a></li>
+                <li><a href='#'>Women</a></li>
+                <li><a href='#'>Men</a></li>
+                <li><a href='#'>Beauty</a></li>
+                <li><a href='#'>Accessories</a></li>
+                <li><a href='#'>Blog</a></li>
+                <li><a href='#'>Contact</a></li>
             </ul>
             <div className='NavIcon'>
-                {NavIcon.map((el,id)=><AIcon key={id} propSrc={el} />)}
+                {NavIcon.map((el, id) => <AIcon key={id} propSrc={el} />)}
             </div>
         </div>
     )

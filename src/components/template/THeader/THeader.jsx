@@ -1,16 +1,17 @@
-import react from "react";
+import React from "react";
 import ONavigationBar from "../../organism/ONavigationBar/ONavigationBar";
 import OTopBar from "../../organism/OTopBar/OTopBar";
 
 
-const THeader =() =>{
+const THeader = () => {
 
 
     return (
-        <div>
-<ONavigationBar />
-<OTopBar />
-        </div>
+        <>
+            <OTopBar />
+            <ONavigationBar />
+
+        </>
     )
 }
 

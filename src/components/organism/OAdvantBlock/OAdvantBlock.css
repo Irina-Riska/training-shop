@@ -1,9 +1,6 @@
 .wrapper-AdvantBlock{
-    position: absolute;
-    width:1281px;
-    height: 103px;
-    left: 0px;
-    top: 612px;
+   
+
     
 
     /* position: absolute;
@@ -18,9 +15,3 @@
      */
 }
 
-.oAdvantBlock{
-    position: absolute;
-left: 10.38%;
-right: 66.04%;
-top: 31.07%;
-bottom: 31.07%;}

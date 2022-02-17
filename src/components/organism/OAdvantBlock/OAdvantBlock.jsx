@@ -6,10 +6,6 @@ import Truck from '../../../assets/Advant/truck.jpg';
 import Return from '../../../assets/Advant/return.jpg';
 import Support from '../../../assets/Advant/support.jpg';
 
-
-
-
-
 import './OAdvantBlock.css';
 
 
@@ -22,22 +18,15 @@ const OAdvantBlock = () => {
     ]
 
 
-
-
-
-
-    
+  
     return (
         <div className='wrapper-AdvantBlock'>
-            <div className='oAdvantBlock'>
                 {advantConditions.map((el, id) => {
                     return (<MAdvantLink
                         key={id}
                         propText={el.text}
                         propSrc={el.icon} />)
                 })}
-            </div>
-
         </div>
 
 

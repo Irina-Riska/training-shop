@@ -12,10 +12,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center; 
-    width: 585px;
-    
-    
+    width: 585px;    
 }
+
 a{
     text-decoration:none;
    font-size: 14px;
@@ -26,4 +25,10 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.NavIcon{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
 }

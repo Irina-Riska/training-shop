@@ -1,0 +1,20 @@
+.wrapper-imageBanner{
+    width: 47%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner1{
+    width: 118px;
+    height: 48px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
